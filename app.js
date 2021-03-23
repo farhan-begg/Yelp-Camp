@@ -22,7 +22,7 @@ const userRoutes = require('./routes/users');
 const campgroundRoutes = require('./routes/campgrounds');
 const reviewRoutes = require('./routes/reviews');
 
-var MongoDBStore = require('connect-mongodb-session')(session);
+var MongoDBStore = require('connect-mongo')(session);
 
 
 
