@@ -37,14 +37,16 @@ const seedDB = async () => {
                     cities[random1000].latitude
             ]
             },
-            images: [
+            images: [  
                 {
-                  url: 'https://res.cloudinary.com/dk60n6akt/image/upload/v1616452618/YelpCamp/jwzzjwvkuevegmbimxw9.png',
-                  filename: 'YelpCamp/jwzzjwvkuevegmbimxw9'
-                },{
-                     url: 'https://res.cloudinary.com/dk60n6akt/image/upload/v1616452402/YelpCamp/crktvjyrsposn3qez4bl.png',
-                filename: 'YelpCamp/crktvjyrsposn3qez4bl'
-                 }
+                url: 'https://res.cloudinary.com/dk60n6akt/image/upload/v1616478734/YelpCamp/xffghgamphwhhuxq8seq.jpg',
+                filename: 'YelpCamp/xffghgamphwhhuxq8seq'
+                 },
+                 {
+                    url: 'https://res.cloudinary.com/dk60n6akt/image/upload/v1616478805/YelpCamp/lsqahyba5t5rdf0swzhe.jpg',
+                    filename: 'YelpCamp/lsqahyba5t5rdf0swzhe'
+                  }
+             
               ]
         })
         await camp.save();
